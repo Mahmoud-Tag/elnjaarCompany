@@ -120,6 +120,17 @@ nav ul li:hover a {
 	font-size: 30px;
 	display: none;
 }
+#check {
+	position: absolute;
+	top: 35px;
+	left: 21px;
+	width: 25px;
+	height: 25px;
+	opacity: 0;
+}
+#check:checked ~ .menu {
+	display: block;
+}
 .menu {
 	width: 200px;
 	height: 250px;
